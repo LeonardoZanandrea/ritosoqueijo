@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+body{
+    background-color: beige;
+}
+
+header{
+    background-color: beige;
+    padding: 10px;
+}
+
+#logo {
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid black;
+    text-align: center;
+    font-family: 'Alex Brush', 'Julee', sans-serif;
+}
+
+header > h1{
+    font-family: 'Julee', sans-serif;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px 1px black;
+    text-align: center;
+}
+
+article{
+    max-width: 1000px;
+    background-color: white;
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+h2{
+    text-align: center;
+    padding: 10px;
+}
+
+.fotos{
+    border-radius: 10px;
+    margin: auto;
+    width: 100%;
+}
+
+.fotopeq{
+    max-width: 350px;
+}
+
+#listainfo{
+    columns: 3;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: rgba(254, 254, 228, 0.656);
+    border-radius: 20px;
+}
+
+h3{
+    padding: 20px 0px;
+    text-align: center;
+}
+
+#listaingredients{
+    columns: 2;
+}
+
+
+h4{
+    padding: 10px 0px;
+}
+
+.site{
+    font-family: 'Julee', sans-serif;
+    transition: 0.5s;
+}
+
+.site:hover{
+    font-size: 20px;
+}
+
+.ultimop{
+    padding: 20px;
+    text-align: center;
+    text-indent: 0px;
+}
+
+footer{
+    background-color: white;
+}
+
+footer > p{
+    text-align: center;
+    padding: 4px;
+    font-size: 0.8em;
+}
+
+footer > p > a{
+    color: black;
+    transition: 0.5s;
+}
+
+footer > p > a:hover{
+    color: red;
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+@media(max-width: 425px){
+    
+    #listainfo{
+        columns: 1;
+    }
+    
+    #listaingredients{
+        columns: 1;
+        text-align: center;
+    }
+}
